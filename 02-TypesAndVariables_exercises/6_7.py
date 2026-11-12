@@ -1,0 +1,9 @@
+name = 'Dominik'  
+
+print(f'The letter {name[0]} has a code {ord(name[0])}')  # Kod 1. litery ('A')
+print(f'The letter {name[1]} has a code {ord(name[1])}')  # Kod 2. litery ('n')
+print(f'The letter {name[2]} has a code {ord(name[2])}')  # ord() zwraca kod liczbowy (ASCII/Unicode) litery
+print(f'The letter {name[3]} has a code {ord(name[3])}')  
+print(f'The letter {name[4]} has a code {ord(name[4])}') 
+print(f'The letter {name[5]} has a code {ord(name[5])}') 
+print(f'The letter {name[6]} has a code {ord(name[6])}') 
