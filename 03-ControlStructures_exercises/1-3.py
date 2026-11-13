@@ -1,3 +1,6 @@
+###
+# Checking whether a car exceeded the speed limit
+#
 speed_limit = 140  # Przypisuje wartość 140 do zmiennej speed_limit, która przechowuje dopuszczalny limit prędkości
 car_speed = int( input('Enter car speed (km/h): ') )  # Wypisuje komunikat proszący użytkownika o podanie prędkości, pobiera wpisany tekst, konwertuje go na liczbę całkowitą i przypisuje do zmiennej car_speed
 
