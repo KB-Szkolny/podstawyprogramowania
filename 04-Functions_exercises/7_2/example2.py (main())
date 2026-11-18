@@ -1,0 +1,22 @@
+# Definicja funkcji dodającej dwie liczby a i b
+def add(a, b):
+    return a + b
+
+# Definicja funkcji odejmującej liczbę b od liczby a
+def subtract(a, b):
+    return a - b
+
+# Główna funkcja programu – zamyka logikę uruchomieniową w jednym miejscu,
+# co poprawia czytelność i porządek w większych skryptach
+def main():
+    # Przypisanie wartości testowych do zmiennych
+    x = 10
+    y = 5
+    
+    # Wywołanie funkcji i wypisanie wyników w konsoli
+    print(f"Add: {add(x, y)}")
+    print(f"Subtract: {subtract(x, y)}")
+
+# Punkt startowy programu – wywołuje funkcję main() tylko przy bezpośrednim uruchomieniu pliku
+if __name__ == "__main__":
+    main()
